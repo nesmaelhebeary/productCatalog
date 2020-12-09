@@ -1,0 +1,138 @@
+enum StaticProductType{
+ServiceClass , Promotion , DataBucket , DataExtension, DataPass
+}
+entity StaticProductFamilies {
+	name String,
+    id Long,
+    productType StaticProductType
+}
+entity StaticProduct {
+	name String,
+    id Long,
+    FamilyId Long
+   
+}   
+
+entity StaticProductPackages {
+	name String,
+    id Long,
+    productId Long,
+    fees Double
+   
+} 
+
+
+entity StaticProductFamilyEligibiltyRules {
+	 id Long,
+    familyId Long,
+    conditionId Long
+} 
+
+entity StaticProductEligibiltyRules {
+	 id Long,
+    productId Long,
+    conditionId Long
+} 
+entity StaticProductBasicAttributes {
+	attributeName String,
+    id Long,
+    productId Long,
+    attributeValue String
+   
+}
+
+
+
+entity StaticProductPackagesBasicAttributes {
+	attributeName String,
+    id Long,
+    packageId Long,
+    attributeValue String
+   
+}
+
+
+entity StaticProductConditionalAttributes {
+	attributeName String,
+    id Long,
+    productId Long,
+    attributeValue String,
+    conditionId Long
+   
+}
+
+entity StaticProductPackagesConditionalAttributes {
+	attributeName String,
+    id Long,
+    packageId Long,
+    attributeValue String,
+    conditionId Long
+   
+}
+
+entity Conditions {
+	id Long,
+    name String
+}
+
+entity ConditionDetails {
+	id Long,
+    relation ConditionRelation,
+    value String,
+    valueQuery String,
+    parameter String,
+    parameterRelation ValueRelation
+}
+
+
+
+
+entity StaticProductsDetails {
+    id Long,
+   productId Long,
+    resourceId String,
+    resourceValue String,
+    resourceType ResourceType
+}
+
+
+
+entity DynamicProducts {
+	id Long,
+	name String
+}
+
+entity DynamicProductsOutput {
+	id Long,
+	fieldName String,
+    fieldSource String,
+    fieldExpression String 
+}
+
+entity ExternalSystems {
+	id Long,
+	name String,
+    url String
+}
+
+
+
+enum ConditionRelation {
+    OR, AND
+}
+enum ValueRelation {
+    IN, NOT IN , EQUALS , GREATERTHAN, LESSTHAN
+}
+enum ServiceType {
+   SMS, VOICE ,GPRS
+}
+enum ResourceType {
+   DA, OFFER, SOB, PAM , ACC , UC, ACCOUNTGROUP
+}
+enum UnitOfMeasure{
+M, K, G
+}
+
+
+
+
