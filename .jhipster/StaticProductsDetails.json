@@ -1,0 +1,35 @@
+{
+  "name": "StaticProductsDetails",
+  "fields": [
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "resourceId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resourceValue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resourceType",
+      "fieldType": "ResourceType",
+      "fieldValues": "DA,OFFER,SOB,PAM,ACC,UC,ACCOUNTGROUP"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201209010920",
+  "entityTableName": "static_products_details",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "productCatalog",
+  "applications": "*",
+  "microserviceName": "productCatalog"
+}

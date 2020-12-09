@@ -1,0 +1,27 @@
+{
+  "name": "StaticProductFamilies",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productType",
+      "fieldType": "StaticProductType",
+      "fieldValues": "ServiceClass,Promotion,DataBucket,DataExtension,DataPass"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201209005820",
+  "entityTableName": "static_product_families",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "productCatalog",
+  "applications": "*",
+  "microserviceName": "productCatalog"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "StaticProductConditionalAttributes",
+  "fields": [
+    {
+      "fieldName": "attributeName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "attributeValue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "conditionId",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201209010520",
+  "entityTableName": "static_product_conditional_attributes",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "productCatalog",
+  "applications": "*",
+  "microserviceName": "productCatalog"
+}

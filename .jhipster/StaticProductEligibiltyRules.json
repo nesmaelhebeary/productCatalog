@@ -1,0 +1,26 @@
+{
+  "name": "StaticProductEligibiltyRules",
+  "fields": [
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "conditionId",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201209010220",
+  "entityTableName": "static_product_eligibilty_rules",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "productCatalog",
+  "applications": "*",
+  "microserviceName": "productCatalog"
+}

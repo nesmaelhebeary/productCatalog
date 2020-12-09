@@ -1,0 +1,30 @@
+{
+  "name": "StaticProductBasicAttributes",
+  "fields": [
+    {
+      "fieldName": "attributeName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "attributeValue",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201209010320",
+  "entityTableName": "static_product_basic_attributes",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "productCatalog",
+  "applications": "*",
+  "microserviceName": "productCatalog"
+}
