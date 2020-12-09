@@ -1,0 +1,40 @@
+{
+  "name": "ConditionDetails",
+  "fields": [
+    {
+      "fieldName": "relation",
+      "fieldType": "ConditionRelation",
+      "fieldValues": "OR,AND"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "valueQuery",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "parameter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "parameterRelation",
+      "fieldType": "ValueRelation",
+      "fieldValues": "IN,NOT,EQUALS,GREATERTHAN,LESSTHAN"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201209010820",
+  "entityTableName": "condition_details",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "productCatalog",
+  "applications": "*",
+  "microserviceName": "productCatalog"
+}

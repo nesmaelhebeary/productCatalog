@@ -14,6 +14,21 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209005820_added_entity_StaticProductFamilies.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209005920_added_entity_StaticProduct.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010020_added_entity_StaticProductPackages.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010120_added_entity_StaticProductFamilyEligibiltyRules.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010220_added_entity_StaticProductEligibiltyRules.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010320_added_entity_StaticProductBasicAttributes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010420_added_entity_StaticProductPackagesBasicAttributes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010520_added_entity_StaticProductConditionalAttributes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010620_added_entity_StaticProductPackagesConditionalAttributes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010720_added_entity_Conditions.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010820_added_entity_ConditionDetails.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209010920_added_entity_StaticProductsDetails.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209011020_added_entity_DynamicProducts.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209011120_added_entity_DynamicProductsOutput.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201209011220_added_entity_ExternalSystems.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
